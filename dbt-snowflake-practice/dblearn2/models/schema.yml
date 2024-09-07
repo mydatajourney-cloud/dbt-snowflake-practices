@@ -1,0 +1,8 @@
+version: 2
+models:
+ - name: dim_listing_cleaned
+   columns:
+    - name: id_listing
+      tests:
+        - unique
+        - not_null
